@@ -10,7 +10,7 @@ body {
     border: 4px solid rgba(242, 126, 202, 1);
     border-radius: 5px;
     background-color: rgb(253, 225, 237);
-    box-shadow: 0 0 20px 3px #ffffff;
+    box-shadow: 0 0 20px 5px #ffffff;
 }
 
 .contenedor-recetas {
@@ -29,4 +29,13 @@ body {
 .iconcito {
     width: clamp(24px, 1vw, 20px);
     height: auto;
+}
+
+p {
+    font-family: 'Inconsolata', monospace;
+}
+
+h1 {
+    font-family: 'Inconsolata', monospace;
+    color: #f04dac;
 }
